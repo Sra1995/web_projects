@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+   <head>        
+      <meta charset="UTF-8">          
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+      <title>Clock v2</title>
+      <link rel="stylesheet" href="./clock2.css">          
+
+      
+   </head>
+   <body>
+          
+      <div class="page-header"> 
+         <h2>
+         <script type="text/javascript">
+
+            var myDate = new Date();
+            var name = window.prompt("Please enter your name: ");
+            
+            if (myDate.getHours() < 12) {
+                document.write("Good Morning " +name);
+            }
+            else if(myDate.getHours() >=12 && myDate.getHours() <=17){
+                document.write("Good Afternoon " +name);
+            }
+            else if (myDate.getHours() > 17 && myDate.getHours() <=24) {
+                document.write("Good Evening " +name);
+            }
+            else
+            {
+                document.write("Good Night");
+            }
+            
+        </script>
+</h2>
+      </div>
+<div class="clock">
+	<div class="hour"></div>
+	<div class="min"></div>
+	<div class="sec"></div>
+</div>
+<div class="switch-cont">
+	<button class="switch-btn"> Light </button>
+</div>
+    <script src="./clock2.js"></script>
+    
+   </body>
+</html>
