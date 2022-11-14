@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400);
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10vw;
+  height: 100vh;
+  display: flex;
+  background: mix(black, #3B403A, 70%);
+}
+
+#digital-clock {
+    margin: auto;
+    text-align: center;
+    
+    
+    font-weight: bold;
+    font-size: 90px;
+    color: #1f1f25;
+    font-size: 100%;
+    letter-spacing: 4px;
+    display: flex;
+    
+    
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
